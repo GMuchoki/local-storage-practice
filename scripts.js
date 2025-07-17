@@ -20,6 +20,7 @@ nameInput.addEventListener('input', function () {
 // Save name to localStorage when button is clicked
 saveToLocalStorage.addEventListener('click', function toLocalStorage (){
     localStorage.setItem('username', spanId.textContent)
+    alert('Name Saved!');
 });
 
 // Clear input, output, and localStorage
